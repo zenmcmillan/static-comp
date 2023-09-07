@@ -7,6 +7,24 @@
   flex-direction: row;
 }
 
+.share-container {
+  display: flex;
+  align-items: center;
+  outline: 2px solid black;
+}
+
+.menu-playlists-container {
+  display: flex;
+  align-items: center;
+  outline: 2px solid black;
+}
+
+.personal-videos {
+  display: flex;
+  align-items: center;
+  outline: 2px solid black;
+}
+
 .full-page {
   display: flex;
   flex-direction: column;
@@ -24,7 +42,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  outline: 3px solid blue;
-  
+  outline: 3px solid blue;  
 }
 
