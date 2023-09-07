@@ -2,6 +2,12 @@
   font-family: 'Roboto', sans-serif;
 }
 
+.full-page {
+  display: flex;
+  flex-direction: column;
+  height: 200vh;
+}
+
 .header {
   display: flex;
   flex-direction: row;
@@ -10,25 +16,38 @@
 .share-container {
   display: flex;
   align-items: center;
-  outline: 2px solid black;
+  outline: 2px solid red;
 }
 
-.menu-playlists-container {
+.share-icon {
+  display: flex;
+  outline: 2px solid blue;
+}
+
+.playlist-icon-container {
   display: flex;
   align-items: center;
-  outline: 2px solid black;
+  outline: 2px solid red;
+}
+
+.playlist-icon {
+  display: flex;
+  outline: 2px solid blue;
+}
+
+.personal-videos-container {
+  display: flex;
+  align-items: center;
+  outline: 2px solid red;
 }
 
 .personal-videos {
   display: flex;
-  align-items: center;
-  outline: 2px solid black;
+  outline: 2px solid blue;
 }
 
-.full-page {
-  display: flex;
-  flex-direction: column;
-  height: 200vh;
+.admin-username-2-win {
+  margin-left: 900px;
 }
 
 .all-boxes {
