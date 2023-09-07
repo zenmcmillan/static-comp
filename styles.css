@@ -1,0 +1,30 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+}
+
+.full-page {
+  display: flex;
+  flex-direction: column;
+  height: 200vh;
+}
+
+.all-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  outline: 3px solid magenta;
+}
+
+.each-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  outline: 3px solid blue;
+  
+}
+
