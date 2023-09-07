@@ -11,6 +11,7 @@
 .header {
   display: flex;
   flex-direction: row;
+   /* background-color: #383838; */
 }
 
 .left-header-container {
@@ -52,8 +53,29 @@
   outline: 2px solid blue;
 }
 
-.admin-username-2-win {
+.globe {
+  height: 50px;
+  width: 50px;
 }
+
+.admin-username-container {
+  display: flex;
+  outline: 5px solid red;
+}
+
+.admin-username-2-win-container {
+  outline: 2px solid black;
+}
+
+.win-container {
+  display: flex;
+
+}
+
+.win {
+  display: flex;
+  flex-direction: row;
+} 
 
 .all-boxes {
   display: flex;
