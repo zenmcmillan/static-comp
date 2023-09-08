@@ -12,6 +12,8 @@
   display: flex;
   flex-direction: row;
   height: 150px;
+  
+  outline: 2px solid orange;
    /* background-color: #383838; */
 }
 
@@ -19,39 +21,51 @@
   display: flex;
   justify-content: space-between;
   outline: 2px solid green;
-  width: 500px;
+  width: 600px;
 }
 
 .share-container {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  outline: 2px solid red;
+  width: 120px;
+  margin-top: 40px;
+  outline: 5px solid red;
 }
 
 .share-icon {
   display: flex;
+  font-size: 20px;
   outline: 2px solid blue;
 }
 
 .playlist-icon-container {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  outline: 2px solid red;
+  margin-top: 50px;
+  width: 130px;
+  outline: 5px solid red;
 }
 
 .playlist-icon {
   display: flex;
+  font-size: 20px;
   outline: 2px solid blue;
 }
 
 .personal-videos-container {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  outline: 2px solid red;
+  margin-top: 50px;
+  width: 220px;
+  outline: 5px solid red;
 }
 
 .personal-videos {
   display: flex;
+  font-size: 20px;
   outline: 2px solid blue;
 }
 
@@ -64,13 +78,15 @@
 }
 
 .admin-username-2-win-container {
+  margin-left: 580px;
   outline: 2px solid black;
 }
 
 .win-container {
   display: flex;  
-  margin-top: -20px;
   justify-content: space-evenly;
+  margin-top: -10px;
+  outline: 5px solid green;
 }
 
 .win {
@@ -88,12 +104,14 @@
   margin-top: 50px;
 }
 
+
 .all-boxes {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   outline: 3px solid magenta;
 }
+
 
 .each-box {
   display: flex;
