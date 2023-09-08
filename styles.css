@@ -1,0 +1,118 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.full-page {
+  display: flex;
+  flex-direction: column;
+  height: 200vh;
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  height: 150px;
+  background-color: #333333;
+}
+
+.left-header-container {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+}
+
+.share-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 120px;
+  margin-top: 47px;
+}
+
+.share-icon {
+  display: flex;
+  font-size: 20px;
+  color: white;
+  margin-left: 15px;
+}
+
+.playlist-icon-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 47px;
+  width: 130px;
+}
+
+.playlist-icon {
+  display: flex;
+  font-size: 20px;
+  color: white;
+}
+
+.personal-videos-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 47px;
+  width: 220px;
+}
+
+.personal-videos {
+  display: flex;
+  font-size: 20px;
+  color: white;
+}
+
+.admin-username-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 245px;
+  font-size: 20px;
+  color: #0096FF
+}
+
+.admin-username-2-win-container {
+  margin-left: 550px;
+  width: 235px;
+
+}
+
+.win-container {
+  display: flex;  
+  justify-content: space-around;
+  margin-top: -45px;
+}
+
+.win {
+  display: flex;
+  flex-direction: row;
+  font-size: 50px;
+  color: white;
+  font-family: 'Balsamiq Sans', cursive;
+  letter-spacing: 4px;
+  -webkit-text-stroke-width: 3px;  
+} 
+.globe {
+  height: 50px;
+  width: 50px;
+  margin-top: 50px;
+}
+
+
+.all-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  outline: 3px solid magenta;
+}
+
+
+.each-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  outline: 3px solid blue;  
+}
+
