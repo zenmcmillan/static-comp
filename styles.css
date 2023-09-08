@@ -100,23 +100,6 @@
   margin-top: 50px;
 }
 
-
-.all-boxes {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  outline: 3px solid magenta;
-  Margin: 0
-}
-
-
-.each-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  outline: 3px solid blue;  
-}
-
 .shares-title-container {
   display: flex;
   align-items: center;
@@ -129,3 +112,23 @@
 h1 {
   margin-left: 15px;
 }
+
+.all-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  outline: 3px solid magenta;
+ 
+}
+
+
+.each-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  outline: 3px solid blue;  
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
