@@ -6,21 +6,19 @@
   display: flex;
   flex-direction: column;
   height: 200vh;
+  overflow: hidden;
 }
 
 .header {
   display: flex;
   flex-direction: row;
   height: 150px;
-  
-  outline: 2px solid orange;
-   /* background-color: #383838; */
+  background-color: #333333;
 }
 
 .left-header-container {
   display: flex;
   justify-content: space-between;
-  outline: 2px solid green;
   width: 600px;
 }
 
@@ -29,75 +27,73 @@
   justify-content: space-between;
   align-items: center;
   width: 120px;
-  margin-top: 40px;
-  outline: 5px solid red;
+  margin-top: 47px;
 }
 
 .share-icon {
   display: flex;
   font-size: 20px;
-  outline: 2px solid blue;
+  color: white;
+  margin-left: 15px;
 }
 
 .playlist-icon-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 47px;
   width: 130px;
-  outline: 5px solid red;
 }
 
 .playlist-icon {
   display: flex;
   font-size: 20px;
-  outline: 2px solid blue;
+  color: white;
 }
 
 .personal-videos-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 47px;
   width: 220px;
-  outline: 5px solid red;
 }
 
 .personal-videos {
   display: flex;
   font-size: 20px;
-  outline: 2px solid blue;
+  color: white;
 }
 
 .admin-username-container {
   display: flex;
   justify-content: space-evenly;
-  width: 220px;
-  color: blue;
-  outline: 5px solid red;
+  width: 245px;
+  font-size: 20px;
+  color: #0096FF
 }
 
 .admin-username-2-win-container {
-  margin-left: 580px;
-  outline: 2px solid black;
+  margin-left: 550px;
+  width: 235px;
+
 }
 
 .win-container {
   display: flex;  
-  justify-content: space-evenly;
-  margin-top: -10px;
-  outline: 5px solid green;
+  justify-content: space-around;
+  margin-top: -45px;
 }
 
 .win {
   display: flex;
   flex-direction: row;
   font-size: 50px;
+  color: white;
   font-family: 'Balsamiq Sans', cursive;
   letter-spacing: 4px;
   -webkit-text-stroke-width: 3px;  
 } 
-
 .globe {
   height: 50px;
   width: 50px;
