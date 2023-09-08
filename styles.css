@@ -17,8 +17,9 @@
 
 .left-header-container {
   display: flex;
+  justify-content: space-between;
   outline: 2px solid green;
-  width: 1000px;
+  width: 500px;
 }
 
 .share-container {
@@ -54,12 +55,11 @@
   outline: 2px solid blue;
 }
 
-
-
 .admin-username-container {
   display: flex;
   justify-content: space-evenly;
   width: 220px;
+  color: blue;
   outline: 5px solid red;
 }
 
