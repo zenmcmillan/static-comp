@@ -11,6 +11,7 @@
 .header {
   display: flex;
   flex-direction: row;
+  height: 150px;
    /* background-color: #383838; */
 }
 
@@ -53,13 +54,12 @@
   outline: 2px solid blue;
 }
 
-.globe {
-  height: 50px;
-  width: 50px;
-}
+
 
 .admin-username-container {
   display: flex;
+  justify-content: space-evenly;
+  width: 220px;
   outline: 5px solid red;
 }
 
@@ -68,14 +68,25 @@
 }
 
 .win-container {
-  display: flex;
-
+  display: flex;  
+  margin-top: -20px;
+  justify-content: space-evenly;
 }
 
 .win {
   display: flex;
   flex-direction: row;
+  font-size: 50px;
+  font-family: 'Balsamiq Sans', cursive;
+  letter-spacing: 4px;
+  -webkit-text-stroke-width: 3px;  
 } 
+
+.globe {
+  height: 50px;
+  width: 50px;
+  margin-top: 50px;
+}
 
 .all-boxes {
   display: flex;
