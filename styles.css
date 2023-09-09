@@ -5,8 +5,9 @@
 .full-page {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 250vh;
   Margin: 0;
+
 }
 
 .header {
@@ -176,7 +177,6 @@ h1 {
   display: flex;
   flex-direction: column;
   margin-left: 20px;
-  outline: 4px solid magenta;
 }
 
 
@@ -209,9 +209,7 @@ h1 {
 }
 
 .recipient-and-date {
-  /* display: flex; */
   flex-direction: row;
-
 }
 
 .recipient {
@@ -244,7 +242,6 @@ h1 {
 
 .attachments-number {
   display: flex;
-  outline:2px solid blue;
   font-size: 35px;
   margin-top: -12px;
   margin-bottom: 10px;
