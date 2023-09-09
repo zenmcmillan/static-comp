@@ -222,3 +222,15 @@ h1 {
   outline: 3px solid red;
   color: #5e5e5e;
 }
+
+.site-link-container {
+  outline: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.site-link {
+  display: flex;
+  flex-wrap: wrap;
+  outline: 2px solid orange;
+}
