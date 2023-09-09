@@ -7,7 +7,7 @@
   flex-direction: column;
   height: 250vh;
   Margin: 0;
-
+  background-color: #dcdcdc;
 }
 
 .header {
@@ -119,7 +119,6 @@ h1 {
   flex-wrap: wrap;
   justify-content: center;
   background-color: #dcdcdc;
-  outline: 3px solid magenta; 
 }
 
 .each-box {
@@ -128,10 +127,10 @@ h1 {
   justify-content: center;
   background-color: white;
   width: 330px;
-  outline: 3px solid blue;  
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 20px;
+  box-shadow: 0 0 5px 4px rgba(0, 0, 0, 0.3);
 }
 
 .share-solid-arrow {
