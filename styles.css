@@ -117,10 +117,8 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  outline: 3px solid magenta;
- 
+  outline: 3px solid magenta; 
 }
-
 
 .each-box {
   display: flex;
@@ -132,3 +130,45 @@ h1 {
   margin-bottom: 20px;
 }
 
+.share-solid-arrow {
+  height: 70px;
+  width: 70px;
+  outline: 2px solid black;
+  border-radius: 35px;
+}
+
+.views-and-arrow-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 60px;
+  outline: 3px solid black;
+}
+
+.views-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  outline: 6px solid green;
+
+}
+
+.views {
+  display: flex;
+  margin-bottom: 28px;
+  outline: 2px solid black;
+
+  margin-bottom: -16px;;
+  /* color: white; */
+}
+
+.views-number {
+  display: flex;
+  outline: 2px solid black;
+  margin-top: 38px;
+
+  /* color: white; */
+  font-size: 35px;
+}
