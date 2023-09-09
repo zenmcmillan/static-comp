@@ -206,5 +206,19 @@ h1 {
 }
 
 .recipient-and-date {
+  /* display: flex; */
+  flex-direction: row;
   outline: 3px solid green;
+}
+
+.recipient {
+  outline: 2px solid purple;
+  color: #4e4e4e;
+  font-size: 20px;
+}
+
+.date {
+  margin-top: -16px;
+  outline: 3px solid red;
+  color: #5e5e5e;
 }
