@@ -106,7 +106,7 @@
   height: 120px;
   font-size: 25px;
   color: #5e5e5e;
-  background-color: #ededed;
+  background-color: #dcdcdc;
 }
 
 h1 {
@@ -117,6 +117,7 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  background-color: #dcdcdc;
   outline: 3px solid magenta; 
 }
 
@@ -124,6 +125,7 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: white;
   width: 330px;
   outline: 3px solid blue;  
   margin-left: 10px;
@@ -174,9 +176,6 @@ h1 {
   margin-left: 20px;
 }
 
-.recipient-and-date {
-
-}
 
 .professional-man {
   background-image: url("./assets/professional-man.png");
@@ -204,4 +203,8 @@ h1 {
 
 .professional-man-3 {
   background-image: url("./assets/professional-man-3.png");
+}
+
+.recipient-and-date {
+  outline: 3px solid green;
 }
