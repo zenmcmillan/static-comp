@@ -225,6 +225,14 @@ h1 {
 
 .site-link-container {
   display: flex; 
+  margin-right: 20px;
+  background-color: #e4e4e4;
+}
+
+.site-link {
+  display: flex;
+  justify-content: center;
+  margin-left: 20px;
 }
 
 .playlist-title, .attachments {
