@@ -245,9 +245,10 @@ h1 {
 .attachments-number {
   display: flex;
   outline:2px solid blue;
-  font-size: 25px;
+  font-size: 35px;
   margin-top: -12px;
   margin-bottom: 10px;
+  color: #00f9ff;
 }
 
 .attachments {
