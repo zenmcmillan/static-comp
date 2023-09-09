@@ -142,9 +142,9 @@ h1 {
 
 .views-and-arrow-container {
   display: flex;
-  height: 240px;
+  height: 200px;
   background-image: url("./assets/professional-woman.png");
-  background-repeat: no-repeat;
+  background-size: cover;  
 }
 
 .views-container {
@@ -176,4 +176,32 @@ h1 {
 
 .recipient-and-date {
 
+}
+
+.professional-man {
+  background-image: url("./assets/professional-man.png");
+}
+
+.professional-older-woman {
+  background-image: url("./assets/professional-older-woman.png");
+}
+
+.professional-man-1 {
+  background-image: url("./assets/professional-man-1.png");
+}
+
+.professional-woman-1 {
+  background-image: url("./assets/professional-woman-1.png");
+}
+
+.professional-man-2 {
+  background-image: url("./assets/professional-man-2.png");
+}
+
+.professional-woman-3 {
+  background-image: url("./assets/professional-woman-3.png");
+}
+
+.professional-man-3 {
+  background-image: url("./assets/professional-man-3.png");
 }
