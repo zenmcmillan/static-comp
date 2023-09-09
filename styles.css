@@ -5,8 +5,9 @@
 .full-page {
   display: flex;
   flex-direction: column;
-  height: 200vh;
-  overflow: hidden;
+  height: 250vh;
+  Margin: 0;
+  background-color: #dcdcdc;
 }
 
 .header {
@@ -76,7 +77,6 @@
 .admin-username-2-win-container {
   margin-left: 550px;
   width: 235px;
-
 }
 
 .win-container {
@@ -94,25 +94,165 @@
   letter-spacing: 4px;
   -webkit-text-stroke-width: 3px;  
 } 
+
 .globe {
   height: 50px;
   width: 50px;
   margin-top: 50px;
 }
 
+.shares-title-container {
+  display: flex;
+  align-items: center;
+  height: 120px;
+  font-size: 25px;
+  color: #5e5e5e;
+  background-color: #dcdcdc;
+}
+
+h1 {
+  margin-left: 15px;
+}
 
 .all-boxes {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  outline: 3px solid magenta;
+  background-color: #dcdcdc;
 }
-
 
 .each-box {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  outline: 3px solid blue;  
+  background-color: white;
+  width: 330px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 5px 4px rgba(0, 0, 0, 0.3);
 }
 
+.share-solid-arrow {
+  height: 70px;
+  width: 70px;
+  border-radius: 35px;
+  margin-top: 20px;
+  margin-left: 20px;
+ background-color: white;
+}
+
+.views-and-arrow-container {
+  display: flex;
+  height: 200px;
+  background-image: url("./assets/professional-woman.png");
+  background-size: cover;  
+}
+
+.views-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 170px;
+  margin-top: 25px;
+}
+
+.views {
+  margin-top: 0px;
+  color: blue;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.views-number {
+  display: flex;
+  color: blue;
+  font-size: 35px;
+  font-weight: 900;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.professional-man {
+  background-image: url("./assets/professional-man.png");
+}
+
+.professional-older-woman {
+  background-image: url("./assets/professional-older-woman.png");
+}
+
+.professional-man-1 {
+  background-image: url("./assets/professional-man-1.png");
+}
+
+.professional-woman-1 {
+  background-image: url("./assets/professional-woman-1.png");
+}
+
+.professional-man-2 {
+  background-image: url("./assets/professional-man-2.png");
+}
+
+.professional-woman-3 {
+  background-image: url("./assets/professional-woman-3.png");
+}
+
+.professional-man-3 {
+  background-image: url("./assets/professional-man-3.png");
+}
+
+.recipient-and-date {
+  flex-direction: row;
+}
+
+.recipient {
+  color: #4e4e4e;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.date {
+  margin-top: -16px;
+ 
+  color: #5e5e5e;
+}
+
+.site-link-container {
+  display: flex; 
+  margin-right: 20px;
+  background-color: #e4e4e4;
+}
+
+.site-link {
+  display: flex;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+.playlist-title, .attachments {
+  color: #4e4e4e;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.name-of-playlist {
+  margin-top: -14px;
+  font-size: 20px;
+  color: #4e4e4e;
+}
+
+.attachments-number {
+  display: flex;
+  font-size: 35px;
+  margin-top: -12px;
+  margin-bottom: 10px;
+  color: #00f9ff;
+}
+
+.attachments {
+  margin-top: -8px;
+}
