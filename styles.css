@@ -77,7 +77,6 @@
 .admin-username-2-win-container {
   margin-left: 550px;
   width: 235px;
-
 }
 
 .win-container {
@@ -95,6 +94,7 @@
   letter-spacing: 4px;
   -webkit-text-stroke-width: 3px;  
 } 
+
 .globe {
   height: 50px;
   width: 50px;
@@ -155,7 +155,6 @@ h1 {
   align-items: center;
   margin-left: 170px;
   margin-top: 25px;
-
 }
 
 .views {
@@ -177,7 +176,6 @@ h1 {
   flex-direction: column;
   margin-left: 20px;
 }
-
 
 .professional-man {
   background-image: url("./assets/professional-man.png");
