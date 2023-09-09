@@ -173,7 +173,10 @@ h1 {
 }
 
 .text-container {
+  display: flex;
+  flex-direction: column;
   margin-left: 20px;
+  outline: 4px solid magenta;
 }
 
 
@@ -208,29 +211,45 @@ h1 {
 .recipient-and-date {
   /* display: flex; */
   flex-direction: row;
-  outline: 3px solid green;
+
 }
 
 .recipient {
-  outline: 2px solid purple;
   color: #4e4e4e;
   font-size: 20px;
+  font-weight: 500;
 }
 
 .date {
   margin-top: -16px;
-  outline: 3px solid red;
+ 
   color: #5e5e5e;
 }
 
 .site-link-container {
-  outline: 2px solid black;
-  display: flex;
-  flex-wrap: wrap;
+  display: flex; 
 }
 
-.site-link {
+.playlist-title, .attachments {
+  color: #4e4e4e;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.name-of-playlist {
+  margin-top: -14px;
+  font-size: 20px;
+  color: #4e4e4e;
+}
+
+.attachments-number {
   display: flex;
-  flex-wrap: wrap;
-  outline: 2px solid orange;
+  outline:2px solid blue;
+  font-size: 25px;
+  margin-top: -12px;
+  margin-bottom: 10px;
+}
+
+.attachments {
+  margin-top: -8px;
 }
